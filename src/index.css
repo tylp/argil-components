@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@font-face {
+	font-family: IBMPlex;
+	src: url("./assets/fonts/IBMPlex/IBMPlexMono-Regular.ttf")
+		format("truetype");
+}
+
+body {
+	font-family: IBMPlex, sans-serif;
+	margin: 0;
+	min-width: 320px;
+	min-height: 100vh;
+	text-transform: uppercase;
+}
